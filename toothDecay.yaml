@@ -1,0 +1,12 @@
+train: # train images (relative to 'path')  1864 images
+  - /content/dataset/yolov5/Dataset/images/train
+val: # val images (relative to 'path')  4952 images
+  - /content/dataset/yolov5/Dataset/images/valid
+
+# Classes
+nc: 3  # number of classes
+names: ['Visible change without cavitation',
+'Visible change with microcavitation'
+,'Visible change with cavitation'
+]
+
